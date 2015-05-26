@@ -1,0 +1,7 @@
+@font-face {
+  font-family: $mainFont;
+  src: url('../fonts/MinionPro-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/MinionPro-Regular.woff') format('woff'),url('../fonts/MinionPro-Regular.ttf') format('truetype'), url('../fonts/MinionPro-Regular.svg#PTSans-Regular') format('svg');
+}

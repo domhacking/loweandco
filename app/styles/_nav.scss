@@ -1,0 +1,138 @@
+.navigation{
+	.nav-tabs{
+		border-bottom: none;
+		li {
+			width: 33%;
+
+			&.hover{
+				background-color: transparent;
+			}
+
+			&.active{
+				a{
+					color: $whiteGrey;
+					border: none;
+					background-color: transparent;
+					text-decoration: underline;
+
+					&.hover{
+						background-color: transparent;
+					}
+				}
+			}
+
+			&.li--about{
+				text-align: left;
+				padding-left: 70px;
+			}
+
+			&.li--contact{
+				padding-left: 30px;
+			}
+		}
+	}
+}
+
+
+//  SIDE NAV
+
+// .nav{
+//   height: 100%;
+//   width: 300px;
+//   position: fixed;
+//   background-color: $darkGrey;
+//   left: -150px;
+//   top: 0;
+//   transition: all 0.5s ease;
+//   z-index: 10;
+
+//   &.move_left:hover{
+//     left:0px;
+//     transition: all 0.5s ease;
+//   }
+
+//   .nav_logo{
+//     float: right;
+//     width: 150px;
+//     // &.nav_logo:hover{
+//     //   width: 300px;
+//     // }
+//   }
+
+
+//   .links{
+//     margin-top: 300px;
+//   }
+
+//   .nav_links{
+//     color: $whiteGrey;
+//     display: block;
+//     height: 20px;
+//     font-size: 15px;
+//     padding: 20px 30px;
+//     text-decoration: none;
+//     width: 100%;
+//   }
+// }
+
+
+
+
+
+// .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+//   font-family: garamond;
+//   background-color: none;
+//   border: none;
+// }
+
+// .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+//   background-color: none;
+// }
+
+// .nav-tabs > li > a {
+//   margin-right: 2px;
+//   line-height: 1.428571429;
+//   padding-right: 10px;
+//   padding-left: 10px;
+//   padding-top: 0px;
+//   width: 350px;
+//   /* border: 1px solid transparent; */
+//   /* border-radius: 4px 4px 0 0; */
+// }
+
+
+// .nav-tabs {
+//   background-color: none;
+//   border-bottom: none;
+// }
+
+// .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+//   color: #E9E9E9;
+//   background-color: transparent;
+//   border: none;
+//   border-bottom-color: transparent;
+// }
+
+
+// .tab-content > .active, .pill-content > .active {
+//   display: block;
+//   padding-top: 1%;
+//   padding-bottom: 30px;
+// }
+
+// .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+//   background-color: transparent;
+//   text-decoration: underline;
+//   color: white;
+// }
+
+.nav-tabs > li > a:hover{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+// .nav-tabs:hover{
+//   background-color: transparent;
+// }
+
