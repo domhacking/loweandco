@@ -25,7 +25,8 @@
 
 				.tab-content{
 					// margin-top: 30px;
-					min-height: 500px;
+					height: 100%;
+					min-height: 450px;
 					display: table;
 					.tab-pane{
 						padding-left: 5px;
@@ -43,6 +44,23 @@
 								padding: 0 10px;
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-height: 900px){
+	html, body{
+		overflow-x: hidden !important;
+		overflow-y: visible !important;
+	}
+	.section{
+		.section1{
+			.tabpanel{
+				.tab-content{
+					.tab-pane{
 						.profile__content{
 							width: 60%;
 							display: inline-block;
@@ -63,6 +81,10 @@
 			}
 		}
 	}
+
 }
 
-// @media and screen (min-height:)
+
+
+
+
