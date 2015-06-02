@@ -35,6 +35,10 @@ footer{
 				width: 30px;
 				z-index: 20;
 				background: no-repeat;
+  				-webkit-filter: invert(100%);
+  				opacity: 0.8;
+  				background-color: rgba(0, 0, 0, 0.6);
+
 
 				&.facebook{
 					background: url('../images/facebook_logo.png');
@@ -50,6 +54,7 @@ footer{
 
 				&.pinterest{
 					background: url('../images/pinterest_logo.png');
+					background-size: 100%;
 				}
 
 				&.instagram{

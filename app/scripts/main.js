@@ -4,7 +4,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('.banner').delay(2000).fadeOut(1000)
+  $('.banner').delay(500).fadeOut(2500)
 });
 
 

@@ -1,7 +1,7 @@
 
 
 .banner{
-  background-color: $darkGrey;
+  background-color: $black;
   height: 100%;
   position: absolute;
   width: 100%;
@@ -9,23 +9,25 @@
 
   .border{
     border: 1px solid $whiteGrey;
-    height: 500px;
+    height: 263px;
     left: 50%;
-    margin-left: -250px;
-    margin-top: -250px;
+    margin-left: -125px;
+    margin-top: -125px;
     padding:2px;
     position: fixed;
     top: 50%;
-    width: 500px;
+    width: 263px;
+    -webkit-animation: intro 4.5s ease-out;
 
     .logo{
       border: 3px solid $whiteGrey;
-      height: 493px;
-      width: 493px;
+      height: 257px;
+      width: 257px;
+      // -webkit-animation: intro 3.5s ease-out;
 
       img{
-        height: 486px;
-        width: 486px;
+        height: 250px;
+        width: 250px;
       }
     }
   }

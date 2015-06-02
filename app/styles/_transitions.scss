@@ -1,4 +1,39 @@
+// BANNER FADE IN
 
+@-webkit-keyframes intro{
+  0%{
+    transform: translateY(0px) scale(2,2);
+    opacity: 0.8;
+  }
+
+  20% {
+    transform: translateY(0px) scale(2,2);
+    opacity: 1;
+  }
+
+  60%{
+    transform: translateY(-300px) scale(0.8,0.8);
+    opacity: 0.2;
+  }
+
+  65%{
+    opacity: 0.0;
+  }
+
+  90%{
+    transform: translateY(-300px) scale(1,1);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0px) scale(1,1);
+    opacity: 0;
+  }
+}
+
+
+
+// CONTENT FADE IN
 .fadeIn{
   -webkit-animation: fadeIn 5s ease-in;
 }
@@ -11,5 +46,23 @@
 
 @keyframes fadeIn {
   0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+// LOGO FADEIN
+.logoFadeIn{
+	-webkit-animation: logoFadeIn 5s ease-in;
+}
+
+@-webkit-keyframes logoFadeIn {
+  0% {opacity: 0;}
+  60% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes logoFadeIn {
+  0% {opacity: 0;}
+  60% {opacity: 0;}
   100% {opacity: 1;}
 }
