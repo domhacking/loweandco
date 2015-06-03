@@ -8,7 +8,7 @@ $icon-font-path: '../fonts/';
 
 
 
-h1,h2,h3,h4,h5,p,a{
+h1,h2,h3,h4,h5,p,ul,a{
   font-family: Garamond, $mainFont;
   color: $whiteGrey;
   margin: 0;
@@ -20,6 +20,10 @@ h3{
   color: $white;
   text-decoration: underline;
   padding-bottom: 5px;
+}
+
+li{
+  font-size: 17px;
 }
 
 p{

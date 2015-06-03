@@ -10,10 +10,10 @@
 
 			&.active{
 				a{
-					color: $white;
 					border: none;
 					background-color: transparent;
 					text-decoration: underline;
+					color: $white;
 
 					&.hover{
 						background-color: transparent;
@@ -28,6 +28,33 @@
 
 			&.li--contact{
 				padding-left: 30px;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 770px){
+	.navigation{
+		.nav-tabs{
+			li{
+				width: 100%;
+				display: block;
+				padding: 0;
+				a{
+					width: 100%;
+					margin: 0 auto;
+					text-align: center;
+					font-size: 18px;
+				}
+
+				&.li--about{
+					padding-left: 0px;
+				}
+
+				&.li--contact{
+					padding-left: 0px;
+				}
 			}
 		}
 	}
