@@ -76,33 +76,63 @@
 		overflow-y: visible !important;
 	}
 	.section{
-		.section1{
-			.tabpanel{
-				.tab-content{
-					.tab-pane{
-						.profile__content{
-							width: 60%;
-							display: inline-block;
-						}
+		&.section1{
+			.content{
+				.tabpanel{
+					.tab-content{
+						.tab-pane{
+							.map{
 
-						.map{
-
-							background-size: 100% 100%;
-							height: 85%;
-							width: 35%;
-							display: inline-block;
-							vertical-align: top;
-							margin-left: 20px;
-							margin-top: 2%;
+								background-size: 100% 100%;
+								height: 85%;
+								width: 35%;
+								display: inline-block;
+								vertical-align: top;
+								margin-left: 20px;
+								margin-top: 2%;
+							}
 						}
 					}
 				}
 			}
 		}
 	}
-
 }
 
+
+@media screen and (max-width: 770px){
+	.section{
+		&.section1{
+			.content{
+				.tabpanel{
+					padding-right: 20px;
+					padding-left: 20px;
+					margin-top: 30px;
+					margin-bottom: 30px;
+
+					.tab-content{
+						display: inline;
+						.tab-pane{
+							.content--left{
+								width: 100%;
+							}
+
+							.map{
+								background-size: 100% 100%;
+								height: 300px;
+								width: 300px;
+								margin: 0 auto;
+								margin-top: 20px;
+								display: block;
+								float: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 @media screen and (max-width: 600px){
 	html, body{

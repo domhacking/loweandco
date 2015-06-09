@@ -72,3 +72,18 @@ footer{
 		margin-left: 0;
 	}
 }
+
+
+@media screen and (max-width: 770px){
+	footer{
+		position: relative;
+		.footer__element{
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			p{
+				text-align: center;
+			}
+		}
+	}
+}
