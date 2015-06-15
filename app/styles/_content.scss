@@ -101,6 +101,7 @@
 
 @media screen and (max-width: 770px){
 	.section{
+		min-height: 1450px !important;
 		&.section1{
 			.content{
 				.tabpanel{
