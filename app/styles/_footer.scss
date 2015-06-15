@@ -37,28 +37,36 @@ footer{
 				background: no-repeat;
   				-webkit-filter: invert(100%);
   				opacity: 0.8;
+  				// background-color: white;
   				background-color: rgba(0, 0, 0, 0.6);
+  				vertical-align: top;
+
+  				&:hover{
+  					opacity: 0.5;
+  					text-decoration: none;
+  					color: white;
+  				}
 
 
 				&.facebook{
-					background: url('../images/facebook_logo.png');
+					background-image: url('../images/facebook_logo.png');
 				}
 
 				&.twitter{
-					background: url('../images/twitter_logo.png');
+					background-image: url('../images/twitter_logo.png');
 				}
 
 				&.linkedin{
-					background: url('../images/linkedin_logo.png');
+					background-image: url('../images/linkedin_logo.png');
 				}
 
 				&.pinterest{
-					background: url('../images/pinterest_logo.png');
-					background-size: 100%;
+					background-image: url('../images/pinterest_logo.png');
+					background-size: 101%;
 				}
 
 				&.instagram{
-					background: url('../images/instagram_logo.png');
+					background-image: url('../images/instagram_logo.png');
 				}
 			}
 		}
@@ -83,6 +91,21 @@ footer{
 			width: 100%;
 			p{
 				text-align: center;
+			}
+		}
+	}
+}
+
+
+
+
+@media screen and (max-width: 550px){
+	footer{
+		bottom: auto;
+		.footer__element{
+			&.footer__social{
+				text-align: center;
+				margin-top: 10px;
 			}
 		}
 	}

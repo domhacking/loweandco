@@ -33,7 +33,17 @@
   }
 }
 
-
+@media screen and (max-width: 770px){
+  .banner{
+    .border{
+      -o-animation: intro none !important;
+      -moz-animation: intro none !important;
+      -ms-animation: intro none !important;
+      -webkit-animation: intro none !important;
+      animation: intro none !important;
+    }
+  }
+}
 
 
 
