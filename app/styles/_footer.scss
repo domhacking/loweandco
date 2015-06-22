@@ -114,3 +114,11 @@ footer{
 		}
 	}
 }
+
+@media screen and (min-width: 1550px){
+	footer{
+		left: 50%;
+	    margin-left: -650px;
+	    max-width: 1300px;
+	}
+}

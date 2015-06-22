@@ -1,10 +1,10 @@
-/* jshint devel:true */
+
 $(document).ready(function() {
     $('#fullpage').fullpage();
 });
 
 $(document).ready(function() {
-  $('.banner').delay(500).fadeOut(2500)
+  $('.banner').delay(500).fadeOut(2500);
 });
 
 
