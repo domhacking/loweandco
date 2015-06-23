@@ -8,6 +8,14 @@ footer{
 	width: 100%;
 	padding-left: 40px;
 	padding-right: 40px;
+	z-index: 10;
+	.navigation-line{
+        background: url('../images/navigation-background-border.png') no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 1px;
+		margin: 10px 0;
+    }
 
 	.footer__element{
 		display: inline-block;

@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 770px){
 	.section{
-		min-height: 1450px !important;
+		// min-height: 1450px !important;
 		&.section1{
 			.content{
 				.tabpanel{
@@ -115,8 +115,6 @@
 					.tab-content{
 						display: inline;
 						.tab-pane{
-
-						
 							.content--left{
 								width: 100%;
 							}
@@ -145,26 +143,7 @@
 	}
 }
 
-@media screen and (max-width: 550px){
-	.section{
-		min-height: 1900px !important;
-		&.section1{
-			.content{
-				.tabpanel{
-					.tab-content{
-						.tab-pane{
-							.map{
-								width: 250px;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-@media screen and (min-width: 1550px){
+@media screen and (min-width: 1550px) and (min-height: 1000px){
 	.section{
 		&.section1{
 			.content{
@@ -201,4 +180,44 @@
 		}
 	}
 }
+
+@media screen and (max-width: 770px){
+	div.section.section1.swiper-container-horizontal.swiper-container-fade.fp-section.active.fp-table{
+		height: auto !important;
+	}
+	.section{
+		background-color: $darkGrey;
+		display: block;
+		min-height: auto !important;
+
+		&.section1{
+			.content{
+				position: relative !important;
+				height: auto !important;
+				.tabpanel{
+					margin-top: 0px;
+				}
+			}
+		}
+		&.swiper-container{
+			.fp-section.active.fp-table{
+				height: auto !important;
+			}
+			.swiper-wrapper{
+				min-height: initial !important;
+				height: 300px;
+				.swiper-slide{
+					height: 300px !important;
+				}
+			}
+		}
+	}
+
+	footer{
+		.social_icon{
+			  margin-bottom: 10px;
+		}
+	}
+}
+
 

@@ -1,7 +1,18 @@
-
 $(document).ready(function() {
     $('#fullpage').fullpage();
 });
+
+
+var isPhoneDevice = "ontouchstart" in document.documentElement; 
+$(document).ready(function() {
+    if(isPhoneDevice){
+        $.fn.fullpage.destroy();
+    }
+});
+
+
+
+
 
 $(document).ready(function() {
   $('.banner').delay(500).fadeOut(2500);
