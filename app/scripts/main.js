@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 
-var isPhoneDevice = "ontouchstart" in document.documentElement; 
+var isPhoneDevice = "ontouchstart" in document.documentElement;
 $(document).ready(function() {
     if(isPhoneDevice){
         $.fn.fullpage.destroy();
@@ -25,7 +25,7 @@ var mySwiper = new Swiper ('.swiper-container', {
   loop: true,
   autoplay: 5000,
   autoplayDisableOnInteraction: false,
-  speed: 1500,
+  speed: 2000,
   effect: 'fade',
 
   fade: {
@@ -35,6 +35,3 @@ var mySwiper = new Swiper ('.swiper-container', {
   pagination: '.swiper-pagination',
 
 });
-
-
-
